@@ -17,6 +17,8 @@
 		95BF1E0B284545550091D4C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BF1DE1284545520091D4C6 /* ContentView.swift */; };
 		95BF1E0C284545550091D4C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95BF1DE2284545550091D4C6 /* Assets.xcassets */; };
 		95BF1E0D284545550091D4C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95BF1DE2284545550091D4C6 /* Assets.xcassets */; };
+		95BF1E1D28454A260091D4C6 /* datastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BF1E1C28454A260091D4C6 /* datastore.swift */; };
+		95BF1E1E28454A260091D4C6 /* datastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BF1E1C28454A260091D4C6 /* datastore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		95BF1E00284545550091D4C6 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95BF1E04284545550091D4C6 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		95BF1E06284545550091D4C6 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		95BF1E1C28454A260091D4C6 /* datastore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datastore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,7 @@
 		95BF1DDA284545510091D4C6 = {
 			isa = PBXGroup;
 			children = (
+				95BF1E1C28454A260091D4C6 /* datastore.swift */,
 				95BF1DDF284545520091D4C6 /* Shared */,
 				95BF1DEE284545550091D4C6 /* macOS */,
 				95BF1DF7284545550091D4C6 /* Tests iOS */,
@@ -301,6 +305,7 @@
 			files = (
 				95BF1E0A284545550091D4C6 /* ContentView.swift in Sources */,
 				95BF1E08284545550091D4C6 /* todolistApp.swift in Sources */,
+				95BF1E1D28454A260091D4C6 /* datastore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +315,7 @@
 			files = (
 				95BF1E0B284545550091D4C6 /* ContentView.swift in Sources */,
 				95BF1E09284545550091D4C6 /* todolistApp.swift in Sources */,
+				95BF1E1E28454A260091D4C6 /* datastore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
